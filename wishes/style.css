@@ -191,14 +191,19 @@ p {
     color: #e91e63;
 }
 
-.subtext {
-    font-size: 1.1rem;
+  /* .subtext{
+    font-size: 18px;
     font-style: italic;
     color: white;
     white-space: pre-line;
     line-height: 1.6;
     margin-top: 15px;
-}
+} */
+ .subtext {
+            font-size: 18px;
+            font-style: italic;
+            color:white;
+        } 
 
 .page {
     background: white;
@@ -266,12 +271,12 @@ p, .text {
 }
 
 /* Responsive for Android (small screens) */
-@media screen and (max-width: 480px) {
+@media (max-width: 480px) {
     .message {
         font-size: 1.5rem;
     }
 
-    .subtext {
+    .subtext{
         font-size: 1rem;
     }
 
@@ -282,10 +287,15 @@ p, .text {
     }
 
     .container, .box, .page {
-        padding: 20px;
+        padding: 15px;
     }
 
     .cake {
         width: 120px;
+    }
+
+    .photo {
+        border-radius: 5px;
+        margin-bottom: 15px;
     }
 }
